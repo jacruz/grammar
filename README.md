@@ -2,7 +2,9 @@
 
 ## Descripción
 
-Una aplicación web para estudiar las estructuras gramaticales en inglés. Al presionar sobre el botón 'robot' de manera aleatoria se genera una estructura gramatical indicando además un sujeto y un verbo para crear una frase. El botón 'eye' muestra la respuesta correcta.
+Una aplicación web experimental para estudiar las estructuras gramaticales en inglés. Al presionar sobre el botón 'robot' de manera aleatoria se genera una estructura gramatical indicando además un sujeto y un verbo para crear una frase. El botón 'eye' muestra la respuesta correcta. 
+
+La aplicación esta desarrollada en HTML y JS (usa JQuery).
 
 Aquí puedes explorar la [Demo funcional](https://jonnathan-cruz.000webhostapp.com/portfolio/lab/grammar/index.html).
 
