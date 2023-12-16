@@ -1,0 +1,347 @@
+be;was;been;ser, estar
+have/has;had;had;tener
+arise;arose;arisen;surgir
+awake;awoke;awoken;despertar(se)
+be;was;been;ser,estar
+bear;bore;borne;soportar
+beat;beat;beaten;golpear
+become;became;become;convertirse en
+begin;began;begun;empezar
+bend;bent;bent;doblar(se)
+bet;bet;bet;apostar
+bid;bid;bid;pujar
+bind;bound;bound;encuadernar
+bite;bit;bitten;morder
+bleed;bled;bled;sangrar
+blow;blew;blown;soplar
+break;broke;broken;romper
+breed;bred;bred;criar
+bring;brought;brought;traer
+build;built;built;construir
+burn;burnt;burnt;quemar(se)
+burst;burst;burst;estallar
+buy;bought;bought;comprar
+cast;cast;cast;tirar
+catch;caught;caught;coger
+choose;chose;chosen;elegir
+cling;clung;clung;aferrarse
+come;came;come;venir
+cost;cost;cost;costar
+creep;crept;crept;arrastrar
+cut;cut;cut;cortar
+deal;dealt;dealt;negociar
+dig;dug;dug;cavar
+do;did;done;hacer
+draw;drew;drawn;dibujar
+dream;dreamt;dreamt;soñar
+drink;drank;drunk;beber
+drive;drove;driven;conducir
+eat;ate;eaten;comer
+fall;fell;fallen;caer(se)
+feed;fed;fed;alimentar
+feel;felt;felt;sentirse
+fight;fought;fought;pelearse
+find;found;found;encontrar
+flee;fled;fled;huir
+fly;flew;flown;volar
+forbid;forbade;forbidden;prohibir
+forget;forgot;forgotten;olvidar(se)
+forgive;forgave;forgiven;perdonar
+freeze;froze;frozen;helar(se)
+get;got;got;conseguir
+give;gave;given;dar
+go;went;gone;irse
+grind;ground;ground;moler
+grow;grew;grown;crecer
+hang;hung;hung;colgar
+have;had;had;haber, tener
+hear;heard;heard;escuchar
+hide;hid;hidden;esconder(se)
+hit;hit;hit;golpear
+hold;held;held;agarrar(se)
+hurt;hurt;hurt;hacer daño
+keep;kept;kept;guardar
+kneel;knelt;knelt;arrodillarse
+know;knew;known;saber, conocer
+lay;laid;laid;poner
+lead;led;led;llevar
+lean;leant;leant;apoyarse
+leap;leapt;leapt;brincar
+learn;learnt;learnt;aprender
+leave;left;left;dejar
+lend;lent;lent;prestar
+let;let;let;permitir
+lie;lay;lain;echarse
+light;lit;lit;encender(se)
+lose;lost;lost;perder
+make;made;made;hacer
+mean;meant;meant;significar
+meet;met;met;encontrar(se)
+overcome;overcame;overcome;vencer
+pay;paid;paid;pagar
+put;put;put;poner
+read;read;read;leer
+ride;rode;ridden;montar
+ring;rang;rung;sonar
+rise;rose;risen;levantarse
+run;ran;run;correr
+saw;sawed;sawn;serrar
+say;said;said;decir
+see;saw;seen;ver
+seek;sought;sought;buscar
+sell;sold;sold;vender(se)
+send;sent;sent;enviar
+set;set;set;poner
+sew;sewed;sewn;coser
+shake;shook;shaken;agitar
+shear;sheared;shorn;esquilar
+shine;shone;shone;brillar
+shoot;shot;shot;disparar
+show;showed;shown;mostrar
+shrink;shrank;shrunk;encoger(se)
+shut;shut;shut;cerrar(se)
+sing;sang;sung;cantar
+sink;sank;sunk;hundir(se)
+sit;sat;sat;sentar(se)
+sleep;slept;slept;dormir
+slide;slid;slid;resbalar
+smell;smelt;smelt;oler
+sow;sowed;sown;sembrar
+speak;spoke;spoken;hablar
+speed;sped;sped;acelerar
+spell;spelt;spelt;deletrear
+spend;spent;spent;pasar, gastar
+spill;spilt;spilt;derramar
+spit;spat;spat;escupir
+split;split;split;hender
+spoil;spoilt;spoilt;estropear(se)
+spread;spread;spread;extender(se)
+stand;stood;stood;estar de pie
+steal;stole;stolen;robar
+stick;stuck;stuck;pegar(se)
+sting;stung;stung;picar
+stink;stank;stunk;apestar
+strike;struck;struck;golpear
+strive;strove;striven;esforzarse
+swear;swore;sworn;jurar
+sweep;swept;swept;barrer
+swim;swam;swum;nadar
+swing;swung;swung;balancear(se)
+take;took;taken;tomar(se)
+teach;taught;taught;enseñar
+tear;tore;torn;romper(se)
+tell;told;told;contar, decir
+think;thought;thought;pensar
+throw;threw;thrown;lanzar
+tread;trod;trodden;pisar
+undergo;underwent;undergone;sufrir
+understand;understood;understood;entender
+upset;upset;upset;afligir
+wake;woke;woken;despertar(se)
+wear;wore;worn;llevar (puesto)
+weave;wove;woven;tejer
+weep;wept;wept;llorar
+win;won;won;ganar
+wind;wound;wound;enrollar
+withdraw;withdrew;withdrawn;retirar(se)
+wring;wrung;wrung;torcer
+write;wrote;written;escribir
+act;Acted;Acted;Actuar
+add;Added;Added;Sumar, añadir
+aid;Aided;Aided;Ayudar
+arrest;Arrested;Arrested;Arrestar
+assist;Assisted;Assisted;Ayudar
+attend;Attended;Attended;Asistir, ir
+address;Addressed;Addressed;Dirigirse
+advertise;Advertised;Advertised;Anunciar
+amuse;Amused;Amused;Entretener
+approach;Approached;Approached;Acercarse
+ask;Asked;Asked;Preguntar, pedir
+accompany;Accompanied;Accompanied;Acompañar
+accustom;accustomed;accustomed;Acostumbrar
+agree;agreed;agreed;Concordar
+annoy;annoyed;annoyed;Molestar
+answer;answered;answered;Responder
+appeal;applealed;applealed;Atraer
+appear;appeared;appeared;Aparecer
+arrange;arranged;arranged;Arreglar, ordenar
+arrive;arrived;arrived;Arribar
+accompany;accompanied;accompanied;Acompañar
+accustom;accustomed;accustomed;Acostumbrar
+agree;agreed;agreed;Concordar
+annoy;annoyed;annoyed;Molestar
+answer;answered;answered;Responder
+appeal;applealed;applealed;Atraer
+appear;appeared;appeared;Aparecer
+arrange;arranged;arranged;Arreglar, ordenar
+board;boarded;boarded;Abordar
+balance;balanced;balanced;Equilibrar
+banish;banished;banished;Desterrar
+bark;barked;barked;Ladrar
+bless;blessed;blessed;Bendecir
+brush;brushed;brushed;Cepillar
+behave;behaved;behaved;Comportarse
+belong;belonged;belonged;Pertenecer
+beg;begged;begged;suplicar, mendigar
+believe;believed;believed;Creer
+boil;boiled;boiled;Hervir
+breathe;breathed;breathed;Respirar
+complete;completed;completed;Completar
+consist;consisted;consisted;Consistir
+count;counted;counted;Contar
+close;closed;closed;Cerrar
+cook;cooked;cooked;Cocinar
+crash;crashed;crashed;Chocar
+cross ;crosssed ;crosssed ;cruzar 
+call;called;called;Llamar
+care;cared;cared;Cuidar
+carry;carried;carried;Llevar
+change;changed;changed;Cambiar
+check;checked;checked;Chequear
+charge;charged;charged;cargar, cobrar
+clean;cleaned;cleaned;Limpiar
+climb;climbed;climbed;escalar, subir
+comb;combed;combed;Peinar
+cover;covered;covered;Cubrir
+cry;cried;cried;Llorar
+crawl;crawled;crawled;gatear, arrastrarse
+dance;danced;danced;bailar
+dress;dressed;dressed;vestir
+dropp;dropped;dropped;dejar caer
+dial;dialed;dialed;sintonizar, marcar
+die;died;died;morir
+declare;declared;declared;declarar
+delay;delayed;delayed;demorar
+deliver;delivered;delivered;entregar
+deny;denied;denied;negar
+dine;dined;dined;cenar
+dry;dried;dried;secar
+enclose;enclosed;enclosed;incluir, encerrar
+enjoy;enjoyed;enjoyed;disfrutar
+engage;engaged;engaged;comprometer
+envy;envied;envied;envidiar
+express;expressed;expressed;expresar
+exclaim;exclaimed;exclaimed;exclamar
+explain;explained;explained;explicar
+fail;failed;failed;fracasar, fallar
+fasten;fastended;fastended;abrochar
+file;filed;filed;archivar
+fill;filled;filled;llenar
+fire;fired;fired;echar del trabajo, disparar
+follow;followed;followed;seguir
+frighten;frightened;frightened;espantar
+fry;fried;fried;freir
+finish;finished;finished;terminar
+fish;fished;fished;pescar
+fix;fixed;fixed;fixed
+gain;gained;gained;ganar
+guess;guessed;guessed;adivinar
+help;helped;helped;ayudar
+hope;hoped;hoped;esperar, desear
+happen;happened;happened;suceder
+hurry;hurried;hurried;apurar (se)
+imagine;imagined;imagined;imaginar
+iron;ironed;ironed;planchar
+judge;judged;judged;juzgar
+kiss;kissed;kissed;besar
+kill;killed;killed;matar
+laugh;laughged;laughged;reir
+leak;leaked;leaked;gotear
+like;liked;liked;gustar
+lock;locked;locked;cerrar con llave
+look;looked;looked;mirar
+mark;marked;marked;marcar, señalar
+milk;milked;milked;ordeñar un animal
+miss;missed;missed;extrañar
+manage;managed;managed;manejar
+marry;married;married;casar (se)
+massage;massaged;massaged;masajear
+measure;measured;measured;medir
+move;moved;moved;mover
+observe;observed;observed;observar
+offer;offered;offered;ofrecer
+open;opened;opened;abrir
+order;ordered;ordered;ordenar
+peform;performed;performed;ejecutar
+phone;phoned;phoned;telefonear
+plan;planned;planned;planear
+play;played;played;jugar, tocar
+plough;ploughed;ploughed;arar
+pour;poured;poured;derramar, verter
+pray;prayed;prayed;orar
+prefer;prefered;prefered;preferir
+prepare;prepared;prepared;preparar
+pull;pulled;pulled;tirar
+park;parked;parked;estacionar
+pass;passed;passed;pasar
+pick;picked;picked;recoger
+please;pleased;pleased;complacer
+polish;polished;polished;pulir
+practise;practised;practised;practicar
+promise;promised;promised;prometer
+pronounce;pronounced;pronounced;pronunciar
+punish;punished;punished;castigar
+push;pushed;pushed;empujar
+repeat;repeated;repeated;repetir
+report;reported;reported;reportar, informar
+request;requested;requested;solicitar, pedir
+rest;rested;rested;descansar
+reach;reached;reached;alcanzar
+refuse;refused;refused;rehusar
+raise;raised;raised;levantar
+rain;rained;rained;llover
+realice;realized;realized;darse cuenta
+register;registered;registered;matricularse, registrar
+receive;received;received;recibir
+Remain;remained;remained;quedar, sobrar
+Remenber;remenbered;remenbered;recordar
+Repair;pepaired;pepaired;reparar
+Require;required;required;requerir
+Reserve;reserved;reserved;reservar, guardar
+Row;rowed;rowed;remar
+Resolve;resolved;resolved;resolver
+Return;returned;returned;retornar, volver
+Search;searched;searched;buscar, registrar
+Save;saved;saved;salvar
+0serve;served;served;servir
+settle;settled;settled;arreglar, establecer
+sign;signed;signed;firmar
+smile;smiled;smiled;sonreir
+snow;snowed;snowed;nevar
+spill;spilled;spilled;derramar
+stay;stayed;stayed;permanecer, quedarse
+study;studied;studied;estudiar
+suffer;suffered;suffered;sufrir
+swallow;swallowed;swallowed;tragar
+slip;slipped;slipped;resbalar
+smoke;smoked;smoked;fumar
+stop;stopped;stopped;detener, parar
+switch;switched;switched;conectar, accionar
+stretch;stretched;stretched;estirar
+talk;talked;talked;conversar
+thank;thanked;thanked;agradecer
+touch;touched;touched;tocar, palpar
+trap;trapped;trapped;atrapar
+tire;tired;tired;cansar, fatigar
+train;trained;trained;entrenar
+travel;traveled;traveled;viajar
+trouble;troubled;troubled;molestar
+try;tried;tried;tratar, intantar
+turn;turned;turned;girar, voltear
+unpack;unpacked;unpacked;desempacar
+use;used;used;usar
+visit;visited;visited;visitar
+wait;waited;waited;esperar
+want;wanted;wanted;querer, requerir
+walk;walked;walked;caminar
+wash;washed;washed;lavar
+watch;watched;watched;observar, mirar
+wish;wished;wished;desear, anhelar
+work;worked;worked;trabajar
+wrap up;wrapped up;wrapped up;envolver
+wreck;wrecked;wrecked;naufragar
+warm;warmed;warmed;calentar
+warn;warned;warned;advertir
+water;watered;watered;regar
+weigh;weighed;weighed;pesar
+whistle;whistled;whistled;silbar

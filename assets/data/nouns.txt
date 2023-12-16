@@ -1,0 +1,757 @@
+I;yo
+you;tú
+he;él
+she;ella
+it;eso
+we;nosotros
+they;ellos
+account;cuenta
+achiever;cumplidor
+acoustics;acústica
+act;acto
+action;acción
+activity;actividad
+actor;actor
+addition;adición
+adjustment;ajuste
+advertisement;anuncio
+advice;Consejo
+aftermath;secuelas
+afternoon;tarde
+afterthought;idea tardía
+agreement;acuerdo
+air;aire
+airplane;avión
+airport;aeropuerto
+alarm;alarma
+amount;cantidad
+amusement;diversión
+anger;enfado
+angle;ángulo
+animal ;animal
+answer;responder
+ant;hormiga
+ants ;hormigas
+apparatus;aparato
+apparel;vestir
+apple;manzana
+apples ;manzanas
+appliance;aparato
+approval;aprobación
+arch;arco
+argument;argumento
+arithmetic;aritmética
+arm;brazo
+army;Ejército
+art;art
+attack;ataque
+attempt;intento
+attention;atención
+attraction;atracción
+aunt;tía
+authority;autoridad
+babies ;criaturas
+baby ;bebé
+back;espalda
+badge;distintivo
+bag;bolso
+bait;cebo
+balance;equilibrar
+ball;pelota
+balloon;globo
+balls ;bolas
+banana;plátano
+band;banda
+base;base
+baseball;béisbol
+basin;cuenca
+basket;cesta
+basketball;baloncesto
+bat;murciélago
+bath;bañera
+battle;batalla
+bead;talón
+beam;haz
+bean;frijol
+bear;oso
+bears ;osos
+beast;bestia
+bed;cama
+bedroom;Cuarto
+beds ;camas
+bee;abeja
+beef;carne de vaca
+beetle;escarabajo
+beggar;mendigo
+beginner;principiante
+behavior;comportamiento
+belief;creencia
+believe;creer
+bell;campana
+bells ;campanas
+berry;baya
+bike;bicicleta
+bikes ;bicicletas
+bird;pájaro
+birds ;aves
+birth;nacimiento
+birthday;cumpleaños
+bit;poco
+bite;mordedura
+blade;espada
+blood;sangre
+blow;soplar
+board;tablero
+boat;barco
+boats ;barcos
+body;cuerpo
+bomb;bomba
+bone;hueso
+book;libro
+books ;libros
+boot;bota
+border;frontera
+bottle;botella
+boundary;límite
+box;caja
+boy;chico
+boys ;chicos
+brain;cerebro
+brake;freno
+branch;rama
+brass;latón
+bread;pan de molde
+breakfast;desayuno
+breath;aliento
+brick;ladrillo
+bridge;puente
+brother;hermano
+brothers ;hermanos
+brush;cepillo
+bubble;burbuja
+bucket;cangilón
+building;edificio
+bulb;bulbo
+bun;bollo
+burn;quemar
+burst;ráfaga
+bushes;arbustos
+business;negocio
+butter;mantequilla
+button;botón
+cabbage;repollo
+cable;cable
+cactus;cactus
+cake;pastel
+cakes ;tortas
+calculator;calculadora
+calendar;calendario
+camera;cámara
+camp;acampar
+can;poder
+cannon;cañón
+canvas;lona
+cap;gorra
+caption;subtítulo
+car ;coche
+card;tarjeta
+care;cuidado
+carpenter;carpintero
+carriage;carro
+cars ;carros
+cart;carro
+cast;emitir
+cat;gato
+cats ;gatos
+cattle;ganado
+cause;porque
+cave;cueva
+celery;apio
+cellar;bodega
+cemetery;cementerio
+cent;centavo
+chain;cadena
+chair ;silla
+chairs ;sillas
+chalk;tiza
+chance;oportunidad
+change;cambio
+channel;canal
+cheese;queso
+cherries;guindas
+cherry;Cereza
+chess;ajedrez
+chicken ;pollo
+chickens ;gallinas
+children;niños
+chin;barbilla
+church;Iglesia
+circle;circulo
+clam;almeja
+class;clase
+clock;reloj
+clocks ;relojes
+cloth;paño
+cloud;nube
+clouds ;nubes
+clover;trébol
+club;club
+coach;entrenador
+coal;carbón
+coast;costa
+coat;capa
+cobweb;telaraña
+coil;bobina
+collar;collar
+color;color
+comb;peine
+comfort;comodidad
+committee;comité
+company;empresa
+comparison;comparación
+competition;competencia
+condition;condición
+connection;conexión
+control;controlar
+cook;cocinar
+copper;cobre
+copy;dupdo
+cord;cable
+cork;corcho
+corn ;maíz
+cough;tos
+country;país
+cover;cubrir
+cow;vaca
+cows ;vacas
+crack;grieta
+cracker;galleta
+crate;caja
+crayon;lápiz de color
+cream;crema
+creator;creador
+creature;criatura
+credit;crédito
+crib;cuna
+crime;crimen
+crook;ladrón
+crow;cuervo
+crowd;multitud
+crown;corona
+crush;aplastar
+cry;llorar
+cub;cachorro
+cup;vaso
+current;corriente
+curtain;cortina
+curve;curva
+cushion;amortiguar
+dad;papá
+daughter;hija
+day;día
+death;muerte
+debt;deuda
+decision;decisión
+deer;ciervo
+degree;la licenciatura
+design;diseño
+desire;deseo
+desk;escritorio
+destruction;destrucción
+detail;detalle
+development;desarrollo
+digestion;digestión
+dime;moneda de diez centavos
+dinner;cena
+dinosaurs ;dinosaurios
+direction;dirección
+dirt;suciedad
+discovery;descubrimiento
+discussion;discusión
+disease;enfermedad
+disgust;asco
+distance;distancia
+distribution;distribución
+division;división
+dock;muelle
+doctor;doctor
+dog;perro
+dogs ;perros
+doll;muñeca
+dolls ;muñecas
+donkey;Burro
+door;puerta
+downtown;centro de la ciudad
+drain;desagüe
+drawer;cajón
+dress;vestir
+drink;beber
+driving;conducción
+drop;soltar
+drug;droga
+drum;tambor
+duck ;pato
+ducks ;patos
+dust;polvo
+ear;oreja
+earth;tierra
+earthquake;terremoto
+edge;borde
+education;educación
+effect;efecto
+egg;huevo
+eggnog;Ponche de huevo
+eggs ;huevos
+elbow;codo
+end;fin
+engine;motor
+error;error
+event;evento
+example;ejemplo
+exchange;intercambiar
+existence;existencia
+expansion;expansión
+experience;experiencia
+expert;experto
+eye;ojo
+eyes;ojos
+face;cara
+fact;hecho
+fairies ;hadas
+fall;otoño
+family;familia
+fan;ventilador
+fang ;colmillo
+farm;granja
+farmer ;agricultor
+father;padre
+father;padre
+faucet;grifo
+fear;miedo
+feast;banquete
+feather;pluma
+feeling;sensación
+feet;pies
+fiction;ficción
+field;campo
+fifth;quinto
+fight;lucha
+finger;dedo
+finger;dedo
+fire ;fuego
+fireman;bombero
+fish;pescado
+flag;bandera
+flame;llama
+flavor;sabor
+flesh;carne
+flight;vuelo
+flock;rebaño
+floor;piso
+flower;flor
+flowers ;flores
+fly;mosca
+fog;niebla
+fold;doblez
+food;comida
+foot;pie
+force;fuerza
+fork;tenedor
+form;formar
+fowl;ave
+frame;marco
+friction;fricción
+friend;amigo
+friends ;amigos
+frog;rana
+frogs ;ranas
+front;frente
+fruit;Fruta
+fuel;combustible
+furniture;mueble
+alley;callejón
+game;juego
+garden;jardín
+gate;portón
+geese;gansos
+ghost;fantasma
+giants ;gigantes
+giraffe;jirafa
+girl;niña
+girls ;chicas
+glass;vaso
+glove;guante
+glue;pegamento
+goat;cabra
+gold;oro
+goldfish;pez de colores
+good-bye ;adiós
+goose;ganso
+government;gobierno
+governor;gobernador
+grade;grado
+grain;grano
+grandfather;abuelo
+grandmother;abuela
+grape;uva
+grass;césped
+grip;apretón
+ground;suelo
+group;grupo
+growth;crecimiento
+guide;guía
+guitar;guitarra
+gun;pistola
+hair;cabello
+haircut;Corte de pelo
+hall;sala
+hammer;martillo
+hand;mano
+hands ;manos
+harbor;puerto
+harmony;armonía
+hat;sombrero
+hate;odio
+head;cabeza
+health;salud
+hearing;audición
+heart;corazón
+heat;calor
+help;ayuda
+hen;gallina
+hill ;colina
+history;historia
+hobbies;aficiones
+hole;agujero
+holiday;fiesta
+home ;casa
+honey;miel
+hook;gancho
+hope;esperanza
+horn;cuerno
+horse;caballo
+horses ;caballos
+hose;manguera
+hospital;hospital
+hot;caliente
+hour;hora
+house;casa
+houses ;casas
+humor;humor
+hydrant;boca de aguas
+ice;hielo
+icicle;carámbano
+idea;idea
+impulse;impulso
+income;ingresos
+increase;incrementar
+industry;industria
+ink;tinta
+insect;insecto
+instrument;instrumento
+insurance;seguro
+interest;interesar
+invention;invención
+iron;hierro
+island;isla
+jail;cárcel
+jam;mermelada
+jar;tarro
+jeans;pantalones
+jelly;gelatina
+jellyfish;Medusa
+jewel;joya
+join;unirse
+joke;broma
+journey;viaje
+judge;juez
+juice;jugo
+jump;saltar
+kettle;tetera
+key;llave
+kick;patada
+kiss;Beso
+kite;cometa
+kitten;gatito
+kittens ;gatitos
+kitty ;bote
+knee;rodilla
+knife;cuchillo
+knot;nudo
+knowledge;conocimiento
+laborer;obrero
+lace;cordón
+ladybug;mariquita
+lake;lago
+lamp;lámpara
+land;tierra
+language;idioma
+laugh;risa
+lawyer;abogado
+lead;dirigir
+leaf;hoja
+learning;aprendizaje
+leather;cuero
+leg ;pierna
+legs;piernas
+letter;carta
+letters ;letras
+lettuce;lechuga
+level;nivel
+library;biblioteca
+lift;ascensor
+light;ligero
+limit;límite
+line;línea
+linen;lino
+lip;labio
+liquid;líquido
+list;lista
+lizards ;lagartos
+loaf;pan
+lock;bloquear
+locket;medallón
+look;Mira
+loss;pérdida
+love;amor
+low;bajo
+lumber;maderas
+lunch;almuerzo
+lunchroom;comedor
+machine;máquina
+magic;magia
+maid;criada
+mailbox;buzón
+man;hombre
+manager;gerente
+map;mapa
+marble;mármol
+mark;marca
+market;mercado
+mask;máscara
+mass;masa
+match;partido
+meal;comida
+measure;medida
+meat;carne
+meeting;reunión
+memory;memoria
+men;hombres
+metal;metal
+mice ;ratones
+middle;medio
+milk;Leche
+mind;mente
+mine;mía
+minister;ministro
+mint;menta
+minute;minuto
+mist;niebla
+mitten;mitón
+mom;mamá
+money;dinero
+monkey;mono
+month;mes
+moon;Luna
+morning;Mañana
+mother;madre
+motion;movimiento
+mountain;montaña
+mouth;boca
+move;movimiento
+muscle;músculo
+music;música
+nail;uña
+name;nombre
+nation;nación
+neck;cuello
+needle;aguja
+nerve;nervio
+nest ;nido
+net;red
+news;Noticias
+night;noche
+noise;ruido
+north;norte
+nose;nariz
+note;Nota
+notebook;cuaderno
+number;número
+nut;nuez
+oatmeal;harina de avena
+observation;observación
+ocean;Oceano
+offer;oferta
+office;oficina
+oil;petróleo
+operation;operación
+opinion;opinión
+orange;naranja
+oranges ;naranjas
+order;orden
+organization;organización
+ornament;ornamento
+oven;horno
+owl;búho
+owner;propietario
+page;página
+pail;cubo
+pain;dolor
+paint;pintar
+pan;pan
+pancake;crepe
+paper;papel
+parcel;paquete
+parent;padre
+park;parque
+part;parte
+partner;compañero
+party;fiesta
+passenger;pasajero
+paste;pegar
+patch;parche
+payment;pago
+peace;paz
+pear;Pera
+pen;bolígrafo
+pencil;lápiz
+person;persona
+pest;parásito
+pet;mascota
+pets ;mascotas
+pickle;conservar en vinagre
+picture;imagen
+pie;tarta
+pies ;pies
+pig;cerdo
+pigs ;cerdos
+pin;alfiler
+pipe;tubo
+pizzas ;pizzas
+place;lugar
+plane;avión
+planes ;aviones
+plant;planta
+plantation;plantación
+plants ;plantas
+plastic;el plastico
+plate;plato
+play;jugar
+playground;patio de recreo
+pleasure;Placer
+plot;trama
+plough;arado
+pocket;bolsillo
+point;punto
+poison;veneno
+police;policía
+polish;polaco
+pollution;contaminación
+popcorn;palomitas de maiz
+porter;portero
+position;posición
+pot;maceta
+potato;patata
+powder;polvo
+power;poder
+price;precio
+print;impresión
+prison;prisión
+process;proceso
+produce;Produce
+profit;lucro
+property;propiedad
+prose;prosa
+protest;protesta
+pull;Halar
+pump;bomba
+punishment;castigo
+purpose;propósito
+push;empujar
+quarter;trimestre
+quartz;cuarzo
+queen;reina
+question;pregunta
+quicksand;arena movediza
+quiet;tranquilo
+quill;pluma
+quilt;edredón
+quiver;carcaj
+rabbit ;Conejo
+rabbits ;conejos
+rail;carril
+railway;ferrocarril
+rain;lluvia
+rainstorm;tormenta de lluvia
+rake;rastrillo
+range;distancia
+rat;rata
+rate;tarifa
+ray;rayo
+reaction;reacción
+reading;leyendo
+reason;razón
+receipt;recibo
+recess;recreo
+record;grabación
+relation;relación
+religion;religión
+representative;representante
+request;solicitud
+respect;el respeto
+rest;descanso
+reward;recompensa
+rhythm;ritmo
+rice;arroz
+riddle;enigma
+rifle;rifle
+ring;anillo
+rings ;anillos
+river;río
+road;la carretera
+robin ;Robin
+rock;rock
+rod;barra
+roll;rodar
+roof;techo
+room;habitación
+root;raíz
+rose;Rosa
+route;ruta
+rub;frotar
+rule;regla
+run;correr
+sack;saco
+sail;vela
+salt;sal
+sand;arena
+scale;escala
+scarecrow;espantapájaros
+scarf;bufanda
+scene;escena
+scent;olor
+school;colegio
+science;ciencia
+scissors;tijeras
+screw;tornillo
+sea;mar
+seashore;costa
+seat;asiento
+secretary;secretario
+seed;semilla
+selection;selección
+self;yo
+sense;sentido
+servant;servidor
+shade;sombra
+shake;sacudir
+shame;vergüenza
+shape;forma
+sheep;oveja
+sheet;hoja
+shelf;estante
+ship;enviar
+shirt;camisa
+shock;choque
+shoe;zapato
+shoes;Zapatos
