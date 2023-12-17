@@ -6,14 +6,14 @@ Una aplicación web experimental para estudiar las estructuras gramaticales en i
 
 La aplicación esta desarrollada en HTML y JS (usa JQuery).
 
-Aquí puedes explorar la [Demo funcional](https://jonnathan-cruz.000webhostapp.com/portfolio/lab/grammar/index.html).
+Aquí puedes explorar la [Demo funcional](https://jonnathan-cruz.000webhostapp.com/portfolio/lab/animEngine/index.html).
 
 Y aquí puedes ver [todo mi portafolio!!!](https://jonnathan-cruz.000webhostapp.com) -> Ready to Roll Out! <img src="assets/images/smart-glasses.png" alt="geek" width="20"/>
 
 ## Instalación
 
 Descargar y navegar al *index.html* de la raíz usando un apache para ello. Ejemplo de URL típica usando *XAMPP* y colocando el proyecto en la carpeta *hdocs*:
-http://localhost/grammar/index.html.
+http://localhost/animEngine/index.html.
 
 ## Screenshots
 
@@ -31,6 +31,12 @@ Presionar botón 'robot' <img src="assets/images/robot.png" alt="traducir" width
 
 <img align="center" src="assets/images/screenshots/screenshot_2.png" alt="drawing" width="150"/>
 
+## TO-DO
+
+- Mejorar la interfaz totalmente para hacerla más moderna y intuitiva.
+- Orientar la aplicación más claramente al estilo 'Gamification'
+- Separar Sujeto y verbo del resto de categorías para que quede más clara la actividad a resolver, así como la estructura 'resumen' que aparece antes del botón 'eye'
+- Hacer la aplicacion realmente responsiva, inclusve como Single-page Application (SPA)
 
 ## Licencia
 
