@@ -4,8 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <title>Random grammar</title>
-<script src="lib/jquery.min.js"></script>
-<link href="lib/font-awesome.min.css" rel="stylesheet">
+<script src="lib/jquery-3.7.1.min.js"></script>
 <script src="scripts/script.js" ></script>
 <link href="styles/style.css" rel="stylesheet">
 </head>
@@ -16,71 +15,88 @@
 				<thead>
 					<tr>
 						<th style="width:20%">Category</th>
-						<th style="width:45%">Quest</th> 
-						<th style="width:35%">Actions</th>
+						<th style="width:40%">Quest</th> 
+						<th style="width:40%">Actions</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td>inf + ? -</td>
-						<td id="kw"></td> 
-						<td id="ka"><input type="image" src="assets/images/refresh.png" onclick="change('k')"/></td>
+						<td>Simple/<br>Perfect</td>
+						<td id="spw"></td> 
+						<td id="spa">
+							<a class="btn-actions shake" onclick="change('sp')"><i class="fa fa-retweet"></i></a>
+							<a class="btn-actions" id="btn-lock-close-sp" style="display:none" onclick="lock('sp',false)"><i class="fa fa-lock"></i></a>
+							<a class="btn-actions" id="btn-lock-open-sp" style="display:inline-block" onclick="lock('sp',true)"><i class="fa fa-unlock-alt"></i></a>
+						</td>
 					</tr>
 					<tr>
 						<td>Time</td>
 						<td id="tw"></td> 
 						<td id="ta">
-							<input type="image" src="assets/images/refresh.png" onclick="change('t')"/>
+							<a class="btn-actions shake" onclick="change('t')"><i class="fa fa-retweet"></i></a>
+							<a class="btn-actions" id="btn-lock-close-t" style="display:none" onclick="lock('t',false)"><i class="fa fa-lock"></i></a>
+							<a class="btn-actions" id="btn-lock-open-t" style="display:inline-block" onclick="lock('t',true)"><i class="fa fa-unlock-alt"></i></a>
 						</td>
 					</tr>
 					<tr>
-						<td>Simple/<br>Perfect</td>
-						<td id="spw"></td> 
-						<td id="spa">
-							<input type="image" src="assets/images/refresh.png" onclick="change('sp')"/>
-						</td>
-					</tr>
-					<tr>
-						<td>Progressive?</td>
+						<td>Continuous?</td>
 						<td id="pw"></td> 
-						<td id="pa"><input type="image" src="assets/images/refresh.png" onclick="change('p')"/></td>
+						<td id="pa">
+							<a class="btn-actions shake" onclick="change('c')"><i class="fa fa-retweet"></i></a>
+							<a class="btn-actions" id="btn-lock-close-c" style="display:none" onclick="lock('c',false)"><i class="fa fa-lock"></i></a>
+							<a class="btn-actions" id="btn-lock-open-c" style="display:inline-block" onclick="lock('c',true)"><i class="fa fa-unlock-alt"></i></a>
+						</td>
+					</tr>
+					<tr>
+						<td>inf + ? -</td>
+						<td id="kw"></td> 
+						<td id="ka">
+							<a class="btn-actions shake" onclick="change('k')"><i class="fa fa-retweet"></i></a>
+							<a class="btn-actions" id="btn-lock-close-k" style="display:none" onclick="lock('k',false)"><i class="fa fa-lock"></i></a>
+							<a class="btn-actions" id="btn-lock-open-k" style="display:inline-block" onclick="lock('k',true)"><i class="fa fa-unlock-alt"></i></a>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td> 
+						<td></td> 
 					</tr>
 					<tr>
 						<td>Subject</td>
 						<td id="sw"></td> 
 						<td id="sa">
-							<input type="image" src="assets/images/refresh.png" onclick="change('s')"/>
-							<input type="image" src="assets/images/language.png" onclick="translateS()"/>
+							<a class="btn-actions shake" onclick="change('s')"><i class="fa fa-retweet"></i></a>
+							<a class="btn-actions" id="btn-lock-close-s" style="display:none" onclick="lock('s',false)"><i class="fa fa-lock"></i></a>
+							<a class="btn-actions" id="btn-lock-open-s" style="display:inline-block" onclick="lock('s',true)"><i class="fa fa-unlock-alt"></i></a>
+							<a class="btn-actions shake" onclick="translateS()"><i class="fa fa-language"></i></a>
 						</td>
 					</tr>
 					<tr>
 						<td>Verb</td>
 						<td id="vw"></td> 
 						<td id="va">
-							<input type="image" src="assets/images/refresh.png" onclick="change('v')"/>
-							<input type="image" src="assets/images/language.png" onclick="translateW()"/>
-							
-							<input type="image" src="assets/images/past.png" onclick="viewPastW()"/>
-							<input type="image" src="assets/images/stopwatch.png" onclick="viewParticipleW()"/>
+							<a class="btn-actions shake" onclick="change('v')"><i class="fa fa-retweet"></i></a>
+							<a class="btn-actions" id="btn-lock-close-v" style="display:none" onclick="lock('v',false)"><i class="fa fa-lock"></i></a>
+							<a class="btn-actions" id="btn-lock-open-v" style="display:inline-block" onclick="lock('v',true)"><i class="fa fa-unlock-alt"></i></a>
+							<a class="btn-actions shake" onclick="translateW()"><i class="fa fa-language"></i></a>
+							</br>
+							<a class="btn-actions shake" onclick="viewPastW()"><i class="fa fa-history"></i></a>
+							<a class="btn-actions shake" onclick="viewParticipleW()"><i class="fa fa-clock-o"></i></a>
 						</td>
-					</tr>
-					<tr>
-						<td></td>
-						<td>
-							<div class="container-center">
-									<input id="btn-robot" type="image" src="assets/images/robot.png" onclick="change('all')"/>
-							</div>
-						</td> 
-						<td></td>
 					</tr>
 				</tbody>
 			</table>
-			<div class="container-center">
-				<span id="ge">---</span>
+			<div class="container-center shake">
+				<a id="btn-robot" onclick="change('all')"><i class="fa fa-rocket fa-shake"></i></a>
+			</div>
+			<div class="container-center flex-column">
+				<p id="ge"></p>
+				<p id="ge_nv" class="highlight-nv"></p>
 			</div>
 			<br>
 			<div class="container-center">
-				<input id="btn-eye" type="image" src="assets/images/eye.png" onclick="showHideRes(-1)"/>
+				<a id="btn-eye-slash" onclick="showHideRes(-1)" style="display:none"><i class="fa fa-eye-slash btn-eye"></i></a>
+				<a id="btn-eye-open" onclick="showHideRes(-1)" style="display:none"><i class="fa fa-eye btn-eye"></i></a>
 			</div>
 			<div id="res" style="display:none" class="container-center">
 					<span id="gg"></span>

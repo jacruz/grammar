@@ -6,9 +6,9 @@ Una aplicación web experimental para estudiar las estructuras gramaticales en i
 
 La aplicación esta desarrollada en HTML y JS (usa JQuery).
 
-Aquí puedes explorar la [Demo funcional](https://jonnathan-cruz.000webhostapp.com/portfolio/lab/animEngine/index.html).
+Aquí puedes explorar la [Demo funcional](https://jonnathan.site/portfolio/lab/animEngine/index.html).
 
-Y aquí puedes ver [todo mi portafolio!!!](https://jonnathan-cruz.000webhostapp.com) -> Ready to Roll Out! <img src="assets/images/smart-glasses.png" alt="geek" width="20"/>
+Y aquí puedes ver [todo mi portafolio!!!](https://jonnathan.site) -> Ready to Roll Out! <img src="assets/images/smart-glasses.png" alt="geek" width="20"/>
 
 ## Instalación
 
