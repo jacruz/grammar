@@ -92,12 +92,12 @@ function successFunctionG(data) {
 function change(category){
 	if(category=='v' && !isLockedV){//Verbs
 	
-		//Da mitad de probabilidad de escoger un sustantivo comun o uno no comun
+		//Da mitad de probabilidad de escoger entre verbo 'to be' y otro verbo
 		let isCommonVerb = Math.floor((Math.random() * 2));
 		let indexRandom = 0;
-		if(isCommonVerb){//Es comun
+		if(isCommonVerb){//Es to be
 			indexRandom = Math.floor((Math.random() * LAST_INDEX_COMMON_VERBS));
-		}else{
+		}else{//Es otro verbo
 			indexRandom = Math.floor((Math.random() * (arrayVerbs.length - LAST_INDEX_COMMON_VERBS + 1)) + LAST_INDEX_COMMON_VERBS);
 		}
 		currentVerbIndex = indexRandom;
@@ -117,12 +117,12 @@ function change(category){
 	}
 	if(category=='s' && !isLockedS){//Nouns
 		
-		//Da mitad de probabilidad de escoger un sustantivo comun o uno no comun
+		//Da mitad de probabilidad de escoger entre un pronombre y otro sustantivo
 		let isCommonNoun = Math.floor((Math.random() * 2));
 		let indexRandom = 0;
-		if(isCommonNoun==1){//Es comun
+		if(isCommonNoun==1){//Es pronombre
 			indexRandom = Math.floor((Math.random() * LAST_INDEX_COMMON_NOUNS));
-		}else{//No es comun
+		}else{//Es otro sustantivo
 			indexRandom = Math.floor((Math.random() * (arrayNouns.length - LAST_INDEX_COMMON_NOUNS + 1)) + LAST_INDEX_COMMON_NOUNS);
 		}
 		currentNounIndex = indexRandom;
