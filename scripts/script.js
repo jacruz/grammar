@@ -12,15 +12,19 @@ var isLockedC=false;
 var isLockedK=false;
 var isLockedS=false;
 var isLockedV=false;
+var isLockedImg=false;
 
 var currentVerbIndex;
 var currentNounIndex;
 var LAST_INDEX_COMMON_NOUNS = 7;
 var LAST_INDEX_COMMON_VERBS = 2;
+var NUM_IMAGES_SIZE = 276;
 
 var currentGrammarStructureIndex;
 
 var switchValEye = 1;//Default
+
+let isToBe = 0;
 
 //////////////////
 // READ SECTION //
@@ -90,8 +94,10 @@ function successFunctionG(data) {
 
 
 function change(category){
-	if(category=='v' && !isLockedV){//Verbs
 	
+	/*
+	if(category=='v' && !isLockedV){//Verbs
+		
 		//Da mitad de probabilidad de escoger entre verbo 'to be' y otro verbo
 		let isCommonVerb = Math.floor((Math.random() * 2));
 		let indexRandom = 0;
@@ -102,7 +108,9 @@ function change(category){
 		}
 		currentVerbIndex = indexRandom;
 		document.getElementById("vw").innerHTML = arrayVerbs[indexRandom].split(';')[0];
+		
 	}
+	*/
 	if(category=='t' && !isLockedT){//Times
 		let indexRandom = Math.floor((Math.random() * arrayTimes.length));
 		document.getElementById("tw").innerHTML = arrayTimes[indexRandom].split(';')[0];
@@ -115,6 +123,7 @@ function change(category){
 		let indexRandom = Math.floor((Math.random() * arrayContinuous.length));
 		document.getElementById("pw").innerHTML = arrayContinuous[indexRandom].split(';')[0];
 	}
+	/*
 	if(category=='s' && !isLockedS){//Nouns
 		
 		//Da mitad de probabilidad de escoger entre un pronombre y otro sustantivo
@@ -129,18 +138,29 @@ function change(category){
 		document.getElementById("sw").innerHTML = arrayNouns[indexRandom].split(';')[0];
 		
 	}
+	*/
 	if(category=='k' && !isLockedK){//Kinds (+ - ?)
 		let indexRandom = Math.floor((Math.random() * arrayKinds.length));
 		document.getElementById("kw").innerHTML = arrayKinds[indexRandom].split(';')[0];
 	}
+	if(category=='v' && !isLockedV){//Verb
+		isToBe = Math.floor((Math.random() * 2));
+		document.getElementById("vw").innerHTML = isToBe?'yes':'no';
+	}
+	if(category=='img' && !isLockedImg){
+		let indexRandom = Math.floor(Math.random() * (NUM_IMAGES_SIZE-1));
+		document.getElementById("ge_img1").setAttribute("src", "./assets/images/visual/img ("+(indexRandom+1)+").png");
+		document.getElementById("ge_img").setAttribute("src", "./assets/images/visual/img ("+(indexRandom+1)+").png");
+	}
 	
 	if(category=='all'){
-		change('v');
 		change('t');
 		change('sp');
 		change('c');
-		change('s');
+		//change('s');
 		change('k');
+		change('v');
+		change('img');
 
 		showHideRes(1);
 	}
@@ -151,7 +171,7 @@ function change(category){
 		change('p');
 	}*/
 	
-	updateGrammar();
+	updateGrammar(isToBe);
 }
 
 function lock(category,val){
@@ -173,6 +193,9 @@ function lock(category,val){
 	if(category=='k'){//Kinds (+ - ?)
 		isLockedK=val;
 	}
+	if(category=='img'){
+		isLockedImg=val;
+	}
 
 	if(val==true){
 		document.getElementById("btn-lock-close-"+category).style = "display:inline-block";
@@ -183,14 +206,14 @@ function lock(category,val){
 	}
 }
 
-function updateGrammar(){
+function updateGrammar(isToBe){
 	//armar solicitud
 	let t = document.getElementById("tw").innerHTML;
 	let spw = document.getElementById("spw").innerHTML;
 	let pw = document.getElementById("pw").innerHTML;
 	let kw = document.getElementById("kw").innerHTML;
-	let s = document.getElementById("sw").innerHTML;
-	let v = document.getElementById("vw").innerHTML;
+	//let s = document.getElementById("sw").innerHTML;
+	//let v = document.getElementById("vw").innerHTML;
 	let structure = "";
 	if(pw=='yes'){
 		pw = 'continuous';
@@ -199,7 +222,7 @@ function updateGrammar(){
 		pw = '';
 		structure = t+'_'+spw+'_'+kw;
 	}
-	if(v=='be'){
+	if(isToBe){
 		structure += '_be';
 	}
 	
@@ -210,33 +233,29 @@ function updateGrammar(){
 		if(rowCells[0]==structure){
 			currentGrammarStructureIndex = singleRow;
 			found = true;
-		}else{
-			
 		}
     }
-	//console.log("structure.substring(structure.length-3, structure.length): " + structure.substring(structure.length-3, structure.length));
-	if(found==false && structure.substring(structure.length-3, structure.length)=='_be'){
-		structure = structure.substring(0, structure.length-3);
-		
+
+	if(!found){
+		//Volver a buscar eliminando el '_be'
+		if(structure.substring(structure.length-3, structure.length)=='_be')
+			structure = structure.substring(0, structure.length-3);
 		for (var singleRow = 0; singleRow < arrayGrammarStructures.length; singleRow++) {
 			var rowCells = arrayGrammarStructures[singleRow].split('=');
 			if(rowCells[0]==structure){
 				currentGrammarStructureIndex = singleRow;
 				found = true;
-			}else{
-				
 			}
 		}
 	}
 	
-	
-	if(found==true){
+	if(found){
 		let structureVal = arrayGrammarStructures[currentGrammarStructureIndex].split('=')[1];
 	
-		let resGrammar = structureVal.replace('noun', '<span class="highlight-nv">'+s+'</span>');
-		resGrammar = resGrammar.replace('verb(participle)', '<span class="highlight-nv">'+getParticipleW()+"(participle)"+'</span>');
-		resGrammar = resGrammar.replace('verb(past -> regular/irregular)', '<span class="highlight-nv">'+getPastW()+"(past)"+'</span>');
-		resGrammar = resGrammar.replace('verb', '<span class="highlight-nv">'+getCurrentVerb()+'</span>');
+		let resGrammar = structureVal.replace('noun', '<span class="highlight-nv">'+'subject'+'</span>');
+		resGrammar = resGrammar.replace('verb(participle)', '<span class="highlight-nv">'+'verb(participle)'+'</span>');
+		resGrammar = resGrammar.replace('verb(past -> regular/irregular)', '<span class="highlight-nv">'+'verb(past -> regular/irregular)'+"(past)"+'</span>');
+		resGrammar = resGrammar.replace('verb', '<span class="highlight-nv">'+'verb'+'</span>');
 		
 		resGrammar = resGrammar.replace('aux[do|does]','<span class="highlight-aux">[do/does]</span>');
 		resGrammar = resGrammar.replace('aux[have|has]','<span class="highlight-aux">[have|has]</span>');
@@ -247,8 +266,8 @@ function updateGrammar(){
 
 		resGrammar = resGrammar.split("+").join(" ");
 		
-		document.getElementById("ge").innerHTML = formatGrammarStructure();
-		document.getElementById("ge_nv").innerHTML = formatGrammarStructureSV();
+		document.getElementById("ge").innerHTML = formatGrammarStructure(isToBe);
+		//document.getElementById("ge_nv").innerHTML = formatGrammarStructureSV();
 		document.getElementById("gg").innerHTML = resGrammar;
 		
 	}
@@ -315,13 +334,13 @@ function hideRes(){
 	document.getElementById("res").style = "display:none";
 }
 
-function formatGrammarStructure(){
+function formatGrammarStructure(isToBe){
 	let t = document.getElementById("tw").innerHTML;
 	let spw = document.getElementById("spw").innerHTML;
 	let pw = document.getElementById("pw").innerHTML;
 	let kw = document.getElementById("kw").innerHTML;
-	let s = document.getElementById("sw").innerHTML;
-	let v = document.getElementById("vw").innerHTML;
+	let s = "Subject";
+	let v = "Verb";
 	let structure = "";
 
 	if(kw=='infinitive'){
@@ -339,15 +358,15 @@ function formatGrammarStructure(){
 		pw = '';
 		structure = spw+' '+t+' [ '+kw+' ]';
 	}
-	if(v=='be'){
+	if(isToBe){
 		structure=structure.replace(' [ ', ' (be) [ ');
 	}
 	return structure;
 }
 
 function formatGrammarStructureSV(){
-	let s = document.getElementById("sw").innerHTML;
-	let v = document.getElementById("vw").innerHTML;
+	let s = "Subject";
+	let v = "Verb";
 	let structure = s + " " + v;
 	return structure;
 }

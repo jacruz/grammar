@@ -15,8 +15,8 @@
 				<thead>
 					<tr>
 						<th style="width:20%">Category</th>
-						<th style="width:40%">Quest</th> 
-						<th style="width:40%">Actions</th>
+						<th style="width:50%">Quest</th> 
+						<th style="width:30%">Actions</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -57,31 +57,23 @@
 						</td>
 					</tr>
 					<tr>
-						<td></td>
-						<td></td> 
-						<td></td> 
-					</tr>
-					<tr>
-						<td>Subject</td>
-						<td id="sw"></td> 
-						<td id="sa">
-							<a class="btn-actions shake" onclick="change('s')"><i class="fa fa-retweet"></i></a>
-							<a class="btn-actions" id="btn-lock-close-s" style="display:none" onclick="lock('s',false)"><i class="fa fa-lock"></i></a>
-							<a class="btn-actions" id="btn-lock-open-s" style="display:inline-block" onclick="lock('s',true)"><i class="fa fa-unlock-alt"></i></a>
-							<a class="btn-actions shake" onclick="translateS()"><i class="fa fa-language"></i></a>
-						</td>
-					</tr>
-					<tr>
-						<td>Verb</td>
+						<td>To be?</td>
 						<td id="vw"></td> 
 						<td id="va">
 							<a class="btn-actions shake" onclick="change('v')"><i class="fa fa-retweet"></i></a>
 							<a class="btn-actions" id="btn-lock-close-v" style="display:none" onclick="lock('v',false)"><i class="fa fa-lock"></i></a>
 							<a class="btn-actions" id="btn-lock-open-v" style="display:inline-block" onclick="lock('v',true)"><i class="fa fa-unlock-alt"></i></a>
-							<a class="btn-actions shake" onclick="translateW()"><i class="fa fa-language"></i></a>
-							</br>
-							<a class="btn-actions shake" onclick="viewPastW()"><i class="fa fa-history"></i></a>
-							<a class="btn-actions shake" onclick="viewParticipleW()"><i class="fa fa-clock-o"></i></a>
+						</td>
+					</tr>
+					<tr>
+						<td>Img</td>
+						<td id="imgw">
+							<img id="ge_img1" src="" width="150px"/>
+						</td> 
+						<td id="imga">
+							<a class="btn-actions shake" onclick="change('img')"><i class="fa fa-retweet"></i></a>
+							<a class="btn-actions" id="btn-lock-close-img" style="display:none" onclick="lock('img',false)"><i class="fa fa-lock"></i></a>
+							<a class="btn-actions" id="btn-lock-open-img" style="display:inline-block" onclick="lock('img',true)"><i class="fa fa-unlock-alt"></i></a>
 						</td>
 					</tr>
 				</tbody>
@@ -93,7 +85,6 @@
 				<p id="ge"></p>
 				<p id="ge_nv" class="highlight-nv"></p>
 			</div>
-			<br>
 			<div class="container-center">
 				<a id="btn-eye-slash" onclick="showHideRes(-1)" style="display:none"><i class="fa fa-eye-slash btn-eye"></i></a>
 				<a id="btn-eye-open" onclick="showHideRes(-1)" style="display:none"><i class="fa fa-eye btn-eye"></i></a>
@@ -103,6 +94,7 @@
 			</div>
 		</div>
 		
+		<img id="ge_img" src="" width="400px"/>
 			
 		<footer>
 			<section class="s-powered-by">
